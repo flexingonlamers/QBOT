@@ -38,12 +38,12 @@ while true
 do
 clear
 echo -e "
-${LIGHTBLUE} ██████╗ ██████╗  ██████╗ ████████╗███████╗███████╗████████╗██╗   ██╗██████╗ 
-${LIGHTBLUE}██╔═══██╗██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗
-${LIGHTBLUE}██║   ██║██████╔╝██║   ██║   ██║   ███████╗█████╗     ██║   ██║   ██║██████╔╝
-${LIGHTBLUE}██║▄▄ ██║██╔══██╗██║   ██║   ██║   ╚════██║██╔══╝     ██║   ██║   ██║██╔═══╝ 
-${LIGHTBLUE}╚██████╔╝██████╔╝╚██████╔╝   ██║   ███████║███████╗   ██║   ╚██████╔╝██║     
-${LIGHTBLUE} ╚══▀▀═╝ ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝
+ ${BLUE}██████${WHITE}╗ ${BLUE}██████${WHITE}╗  ${BLUE}██████${WHITE}╗ ${BLUE}████████${WHITE}╗${BLUE}███████${WHITE}╗${BLUE}███████${WHITE}╗${BLUE}████████${WHITE}╗${BLUE}██${WHITE}╗   ${BLUE}██${WHITE}╗${BLUE}██████${WHITE}╗ 
+${BLUE}██${WHITE}╔═══${BLUE}██${WHITE}╗${BLUE}██${WHITE}╔══${BLUE}██${WHITE}╗${BLUE}██${WHITE}╔═══${BLUE}██${WHITE}╗╚══${BLUE}██${WHITE}╔══╝${BLUE}██${WHITE}╔════╝${BLUE}██${WHITE}╔════╝╚══${BLUE}██${WHITE}╔══╝${BLUE}██${WHITE}║   ${BLUE}██║${BLUE}██╔══${BLUE}██╗
+${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║${BLUE}██████${WHITE}╔╝${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║   ${BLUE}███████${WHITE}╗${BLUE}█████${WHITE}╗     ${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║   ${BLUE}██║${BLUE}██████${WHITE}╔╝
+${BLUE}██${WHITE}║${BLUE}▄▄ ${BLUE}██${WHITE}║${BLUE}██${WHITE}╔══${BLUE}██${WHITE}╗${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║   ╚════${BLUE}██${WHITE}║${BLUE}██${WHITE}╔══╝     ${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║${BLUE}██${WHITE}╔═══╝ 
+${WHITE}╚${BLUE}██████${WHITE}╔╝${BLUE}██████${WHITE}╔╝╚${BLUE}██████${WHITE}╔╝   ${BLUE}██${WHITE}║   ${BLUE}███████${WHITE}║${BLUE}███████${WHITE}╗   ${BLUE}██${WHITE}║   ╚${BLUE}██████${WHITE}╔╝${BLUE}██${WHITE}║     
+${WHITE} ╚══${BLUE}▀▀${WHITE}═╝ ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝
 "
 echo -e "${WHITE}Created By${WHITE} [${LIGHTCYAN}@FlexingOnLamers${WHITE}]"
 echo -e "${LIGHTBLUE}NET  ${WHITE}To See The Full List OF Commands for Net setups etc "
